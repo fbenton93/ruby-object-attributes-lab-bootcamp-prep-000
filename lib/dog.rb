@@ -3,8 +3,13 @@ class Dog
     puts name
   end 
   
-  def name=(name)
-    @name = name
+  def name=(dog_name)
+    @name = dog_name
   end
+  
+  def breed 
+  end 
+  
+  def breed=(breed_name)
   
 end
